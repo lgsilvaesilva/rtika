@@ -416,7 +416,7 @@ tika <- function(input,
       file.path(
         output_dir,
         paste0(
-          inputFiles,
+          basename(inputFiles),
           output_file_affix
         )
       ),
